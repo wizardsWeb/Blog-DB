@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Daily Journal</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <body>
+    <div class="container">
+    <div class="form flex justify-center items-center pt-60 bg-">
+        <div class="w-1/4 p-6 shadow-lg bg-white rounded">
+            <h1 class="text-center p-6 text-4xl font-bold">SignUp</h1>
+            <form action="" method="post" class="">
+                <div class="py-8 pt-8">
+                    <label for="username" class="py-2 block px-3">Username</label>
+                    <input type="text" name="username" id="username" placeholder="Username" class="p-3 w-full border border-black rounded-lg">
+                </div>
+                <div class="py-8">
+                    <label for="emailId" class="py-2 block px-3">EmailId</label>
+                    <input type="text" name="emailId" id="emailId" placeholder="EmailId" class="p-3 w-full border border-black rounded-lg">
+                </div>
+                <div class="py-8">
+                    <label for="password" class="py-2 block px-3">Password</label>
+                    <input type="text" name="password" id="password" placeholder="Password" class="p-3 w-full border border-black rounded-lg">
+                </div>
+                <div>
+                    <p class="font-bold"><a href="/login"> Already a user? login now</a></p>
+                </div>
+                <div class="flex justify-center py-4 pt-12">
+                    <button type="submit" class="bg-[#1ABC9C] text-white font-bold p-3 rounded-lg">Submit Form</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<%- include("partials/footer"); -%>
